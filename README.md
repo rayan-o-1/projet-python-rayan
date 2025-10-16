@@ -50,5 +50,4 @@ Conception d’un jeu de dominos fluide et ergonomique, doté d’une interface 
 
 ---
 
-## 🧭 Organisation du dépôt
 
