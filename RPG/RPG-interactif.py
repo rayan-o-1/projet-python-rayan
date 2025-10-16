@@ -1,0 +1,1 @@
+<content of RPG-interactif.py copied from assets/images/RPG-Interactif.py>
