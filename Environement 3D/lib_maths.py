@@ -63,3 +63,23 @@ class Triangle2D:
     def toScreen(self):
         return Triangle2D(self.v1.toScreen(),self.v2.toScreen(),self.v3.toScreen())
 
+class Triangle3D:    
+    def __init__(self,v1,v2,v3) -> None:
+        self.v1 = v1
+        self.v2 = v2
+        self.v3 = v3
+
+    def projection(self,focalLenth):
+        return Triangle2D(self.v1.projection(focalLenth),self.v2.projection(focalLenth),self.v3.projection(focalLenth))
+
+    def translate(self, v:vec3):
+        return Triangle3D(self.v1 + v,self.v2 + v,self.v3 + v)
+
+    def rotationX(self,pitch):
+        return Triangle3D(self.v1.rotationX(pitch),self.v2.rotationX(pitch),self.v3.rotationX(pitch))
+    
+    def rotationY(self,yaw):
+        return Triangle3D(self.v1.rotationY(yaw),self.v2.rotationY(yaw),self.v3.rotationY(yaw))
+    
+
+
