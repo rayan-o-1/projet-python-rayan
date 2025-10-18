@@ -1,5 +1,4 @@
 import os
-import time
 from lib_maths import *
 
 width,height = os.get_terminal_size()
