@@ -17,11 +17,21 @@ carre = [
 cam = mg.Camera(vec3(0, 0, -2), 0.0, 0.0, focalLength=1)
 
 angle = 0
+angle = 0
+rayon = 2 
+
 while True:
     mg.clear(' ')
-    cam.yaw = angle
-    cam.pitch = math.sin(angle / 2) * 0.3
+
+    
+    cam.position = vec3(math.sin(angle) * rayon, 0, math.cos(angle) * rayon)
+
+    
+    cam.yaw = -angle
+    cam.pitch = 0  # ou ajoute une oscillation si tu veux un effet "orbital"
+    
     mg.putMesh(carre, cam)
     mg.draw()
+
     angle += 0.05
     time.sleep(0.05)
