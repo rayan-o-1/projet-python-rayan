@@ -28,13 +28,13 @@
       <h3>RPG Interactif et Visuel</h3>
       <p>Jeu de rôle 2D doté d'une interface graphique complète, d'un système de combat et de dialogues. Le projet met en œuvre des principes d'architecture logicielle (POO) pour une gestion efficace des états du jeu.</p>
       <p><strong>Technologies :</strong> <code>Python</code>, <code>Pygame</code></p>
-      <a href="[LIEN-VERS-LE-DÉPÔT-RPG]">Voir le projet →</a>
+      <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/RPG">Voir le projet →</a>
     </td>
     <td width="50%" valign="top">
       <h3>Jeu de Dominos</h3>
       <p>Application de bureau pour jouer aux dominos, développée avec Tkinter. L'accent a été mis sur la création d'une interface utilisateur intuitive et la gestion propre de la logique du jeu.</p>
       <p><strong>Technologies :</strong> <code>Python</code>, <code>Tkinter</code></p>
-      <a href="[LIEN-VERS-LE-DÉPÔT-DOMINOS]">Voir le projet →</a>
+      <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/Jeux%20de%20domino">Voir le projet →</a>
     </td>
   </tr>
 </table>
