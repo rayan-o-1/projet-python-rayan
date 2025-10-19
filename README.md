@@ -21,7 +21,8 @@
 
 ## 🚀 Projets Principaux
 
-### 🌀 [Environnement Graphique 3D]([[VOTRE-LIEN-ICI](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGU0ajc3bDY0ZzJ6MWdxbnUyd2tyY21oNjdnbWZpdjU2ZTY3MnFpZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oih5og4p58E6PrgLnD/giphy.gif)])
+### 🌀 [Environnement Graphique 3D]([[<img width="480" height="368" alt="image" src="https://github.com/user-attachments/assets/7eb922c2-d28b-4c55-ad05-81a54da71c11" />
+I]
 *Création d'un moteur de rendu 3D à partir de zéro en utilisant Python et Pygame.*
 
 Ce projet transforme des concepts mathématiques (matrices de rotation, projection perspective) en un environnement 3D interactif. L'objectif était d'approfondir ma compréhension de l'algèbre linéaire et de la géométrie dans un contexte de programmation graphique.
