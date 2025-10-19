@@ -1,53 +1,58 @@
-# 👨‍💻 Rayan (Rtj34_) — Développeur Python & Passionné de Mathématiques et d’Informatique
+# Rayan (Rtj34) — Développeur Python & Passionné de Mathématiques
 
-Bienvenue sur mon espace GitHub !  
-Je conçois et développe des projets alliant **programmation**, **mathématiques** et **créativité visuelle**.  
-Mon objectif est de renforcer mes compétences en **algorithmique**, **modélisation mathématique** et **conception logicielle** à travers des projets concrets et ambitieux.
+**Développeur Python spécialisé dans la modélisation 3D, la création de jeux et l'algorithmique. Je transforme des concepts mathématiques complexes en applications interactives et visuelles.**
 
----
-
-## 🧠 Compétences principales
-
-| Domaine | Compétences |
-|----------|-------------|
-| **Langages** | Python, HTML/CSS, notions de JavaScript |
-| **Bibliothèques Python** | Pygame, Tkinter, NumPy, Matplotlib |
-| **Mathématiques appliquées** | Géométrie 3D, trigonométrie, logique, algèbre linéaire |
-| **Concepts clés** | Algorithmique, structures de données, programmation orientée objet |
-| **Outils** | Git / GitHub, VS Code, Linux |
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/VOTRE-PROFIL-ICI)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rayan-o-1)
 
 ---
 
-## 🧩 Projets réalisés
+## 🧠 Compétences Techniques
 
-### 🌀 Environnement Graphique 3D
-> **Technos :** Python, Mathématiques 3D, Pygame  
-Création d’un moteur graphique 3D en Python reposant sur des calculs de rotation, de projection et de matrices pour générer des environnements tridimensionnels interactifs.  
-➡️ *Objectif : appliquer la logique mathématique à la modélisation et à la visualisation graphique.*
-
----
-
-### 🧙‍♂️ RPG Interactif et Visuel
-> **Technos :** Python, Pygame  
-Développement d’un jeu de rôle 2D avec système de combat, dialogues, interface utilisateur et gestion d’événements.  
-➡️ *Objectif : concevoir un projet structuré intégrant gameplay, architecture logicielle et design visuel.*
+| Domaine                    | Compétences & Outils                                     |
+| :------------------------- | :------------------------------------------------------- |
+| **Langages de programmation** | `Python`, `HTML/CSS`, `JavaScript` (notions)             |
+| **Bibliothèques Python** | `Pygame`, `Tkinter`, `NumPy`, `Matplotlib`               |
+| **Mathématiques Appliquées** | Géométrie 3D, Trigonométrie, Algèbre Linéaire, Logique   |
+| **Concepts Informatiques** | Algorithmique, Structures de Données, Programmation Orientée Objet |
+| **Outils de Développement** | `Git`, `GitHub`, `VS Code`, `Linux`                      |
 
 ---
 
-### 🁣 Jeu de Dominos
-> **Technos :** Python, Tkinter  
-Conception d’un jeu de dominos fluide et ergonomique, doté d’une interface graphique claire et responsive.  
-➡️ *Objectif : créer un jeu simple, propre et intuitif en optimisant la gestion des interactions.*
+## 🚀 Projets Principaux
+
+### 🌀 [Environnement Graphique 3D]([VOTRE-LIEN-ICI])
+*Création d'un moteur de rendu 3D à partir de zéro en utilisant Python et Pygame.*
+
+Ce projet transforme des concepts mathématiques (matrices de rotation, projection perspective) en un environnement 3D interactif. L'objectif était d'approfondir ma compréhension de l'algèbre linéaire et de la géométrie dans un contexte de programmation graphique.
+
+**Technologies :** `Python`, `Pygame`, `NumPy`
+
+![Aperçu du moteur 3D](https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/giphy.gif) ---
+
+### 🧙‍♂️ [RPG Interactif et Visuel]([VOTRE-LIEN-ICI])
+*Développement d'un jeu de rôle 2D complet avec une interface graphique, un système de combat au tour par tour et des dialogues.*
+
+Ce projet met l'accent sur l'architecture logicielle (programmation orientée objet) et la gestion d'événements pour créer une expérience de jeu structurée et engageante.
+
+**Technologies :** `Python`, `Pygame`
 
 ---
 
-## 📈 Objectifs et apprentissages
+### 🀣 [Jeu de Dominos]([VOTRE-LIEN-ICI])
+*Conception d'un jeu de dominos avec une interface graphique claire et intuitive, gérant la logique du jeu et les interactions utilisateur.*
 
-- Approfondir mes connaissances en **mathématiques appliquées à l’informatique**
-- Développer des **moteurs de rendu et systèmes physiques** plus avancés
-- Explorer l’**intelligence artificielle**, les **algorithmes d’optimisation** et la **visualisation de données**
-- Contribuer à des **projets open-source**
+L'objectif était de développer une application de bureau propre et fonctionnelle en utilisant la bibliothèque standard Tkinter.
+
+**Technologies :** `Python`, `Tkinter`
 
 ---
 
+## 📈 Objectifs et Perspectives
 
+Je suis actuellement en train d'approfondir mes connaissances pour :
+-   Développer des **moteurs physiques** et des systèmes de rendu plus performants.
+-   Explorer les **algorithmes d'intelligence artificielle** pour des applications en jeu vidéo.
+-   Contribuer à des **projets open-source** liés à la visualisation de données et à la modélisation.
+
+N'hésitez pas à me contacter pour toute collaboration ou discussion !
