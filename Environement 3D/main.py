@@ -31,6 +31,8 @@ cam = mg.Camera(vec3(0, 0, 3.5), 0.0, 0.0, focalLength=2.5)
 angle_x = 0
 angle_y = 0
 
+###vitesse allure et autre paramétre modifiable
+
 while True:
     mg.clear(' ')
 
