@@ -17,7 +17,7 @@
       <h3>Environnement Graphique 3D</h3>
       <p>Moteur de rendu 3D entièrement codé en Python, utilisant Pygame et NumPy pour gérer la projection, la rotation et la rastérisation d'objets. Un projet au croisement des mathématiques et de la programmation graphique.</p>
       <p><strong>Technologies :</strong> <code>Python</code>, <code>Pygame</code>, <code>NumPy</code></p>
-      <a href="[LIEN-VERS-LE-DÉPÔT-3D]">Voir le projet →</a>
+      <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/Environement%203D">Voir le projet →</a>
     </td>
     <td width="50%" valign="top">
       <img src="https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/giphy.gif" alt="Démo du moteur 3D" />
