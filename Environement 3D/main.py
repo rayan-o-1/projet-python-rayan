@@ -45,3 +45,8 @@ while True:
     angle_x += 0.02
     angle_y += 0.03
     time.sleep(0.02)
+
+
+
+
+#projet terminer le fichier main correspond a ce que l on souhaite afficher graphiquement(donc tout type de forme en fonction du nombre de triangle celle si)
