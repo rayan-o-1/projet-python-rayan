@@ -13,7 +13,7 @@ class Camera:
         self.focalLength = focalLength
 
 def draw():
-    print(''.join(pixelBuffer), end='')
+    print('\033[H' + ''.join(pixelBuffer), end='', flush=True)
 
 def clear(char=' '):
     for i in range(width * height):
@@ -45,15 +45,28 @@ def putTriangle(tri, char):
                         putPixel(pos, char)
 
 def putMesh(mesh, cam):
+    shading_chars = '.,-~:;=!*#$@'
+    light_direction = vec3(0, 0, -1).normalize() # Lumière simple venant de face
+
     for triangle in mesh:
-        tri2D = triangle \
-            .translate(-1 * cam.position) \
-            .rotationY(cam.yaw) \
-            .rotationX(cam.pitch) \
-            .projection(cam.focalLength)
-        tri2D = Triangle2D(
-            tri2D.v1.toScreen(width, height),
-            tri2D.v2.toScreen(width, height),
-            tri2D.v3.toScreen(width, height)
-        )
-        putTriangle(tri2D, '@')
+        
+        transformed_tri = triangle.translate(-1 * cam.position)
+
+        line1 = transformed_tri.v2 - transformed_tri.v1
+        line2 = transformed_tri.v3 - transformed_tri.v1
+        normal = line1.cross(line2).normalize()
+
+        if normal.dot(transformed_tri.v1) >= 0:
+            continue
+
+        
+        dot_product = normal.dot(light_direction)
+        intensity = max(0, -dot_product) # On inverse le produit scalaire
+        
+        char_index = int(intensity * (len(shading_chars) - 1))
+        char = shading_chars[char_index]
+
+        projected_tri = transformed_tri.projection(cam.focalLength)
+        screen_tri = projected_tri.toScreen(width, height)
+        
+        putTriangle(screen_tri, char)
