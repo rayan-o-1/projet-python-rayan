@@ -1,11 +1,15 @@
-<div align="center">
-
-# Rayan (Rtj34)
-### Développeur Python | Spécialiste en Modélisation 3D & Algorithmique
-
-*Je conçois des applications interactives en transformant des concepts mathématiques complexes en code performant et visuel. Bienvenue sur mon espace de création.*
-
-</div>
+<table>
+  <tr>
+    <td width="65%" valign="top">
+      <h1>Rayan (Rtj34)</h1>
+      <h3>Développeur Python | Spécialiste en Modélisation 3D & Algorithmique</h3>
+      <p><em>Je conçois des applications interactives en transformant des concepts mathématiques complexes en code performant et visuel. Bienvenue sur mon espace de création.</em></p>
+    </td>
+    <td width="35%" valign="top" align="center">
+      <img src="https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/giphy.gif" alt="Démo du moteur 3D" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -20,31 +24,27 @@
       <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/Environement%203D">Voir le projet →</a>
     </td>
     <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/giphy.gif" alt="Démo du moteur 3D" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3>RPG Interactif et Visuel</h3>
       <p>Jeu de rôle 2D doté d'une interface graphique complète, d'un système de combat et de dialogues. Le projet met en œuvre des principes d'architecture logicielle (POO) pour une gestion efficace des états du jeu.</p>
       <p><strong>Technologies :</strong> <code>Python</code>, <code>Pygame</code></p>
       <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/RPG">Voir le projet →</a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>Jeu de Dominos</h3>
       <p>Application de bureau pour jouer aux dominos, développée avec Tkinter. L'accent a été mis sur la création d'une interface utilisateur intuitive et la gestion propre de la logique du jeu.</p>
       <p><strong>Technologies :</strong> <code>Python</code>, <code>Tkinter</code></p>
       <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/Jeux%20de%20domino">Voir le projet →</a>
     </td>
+    <td width="50%" valign="top">
+      </td>
   </tr>
 </table>
 
 ---
-<div align="center">
-  
-### 🛠️ Compétences Techniques
 
-</div>
+### 🛠️ Compétences Techniques
 
 <div align="center">
 
