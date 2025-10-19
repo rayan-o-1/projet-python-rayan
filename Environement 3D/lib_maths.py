@@ -1,3 +1,5 @@
+###biblio maths mettre tout type de calcul externe 
+
 from math import sin, cos, sqrt
 
 class vec2:
@@ -122,3 +124,4 @@ class Triangle3D:
             self.v2.rotationY(yaw),
             self.v3.rotationY(yaw)
         )
+
