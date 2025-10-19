@@ -47,12 +47,12 @@
 
 | Langages | Bibliothèques Python | Mathématiques | Outils & Concepts |
 | :---: | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> | `Pygame` | Géométrie 3D | <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /> | `NumPy` | Algèbre Linéaire | <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> | `Tkinter` | Trigonométrie | <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> | `Matplotlib` | Logique Formelle | <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> |
-| `JavaScript` (notions) | | | Algorithmique |
-| `Assembly` (notions) | | | Structures de Données |
+| <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> | `Pygame` | Géométrie 3D | <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /> | `NumPy` | Algèbre Linéaire | <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> |
+| <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> | `Tkinter` | Trigonométrie | <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" /> <img src="https://img.shields.io/badge/DBeaver-386483?style=for-the-badge&logo=dbeaver&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> | `Matplotlib` | Logique Formelle | `Nmap` `IDA Pro` `VeraCrypt`|
+| `JavaScript` (notions) | | | `Pinokio` (IA) |
+| `Assembly` (notions) | | | Algorithmique & Structures de Données |
 
 </div>
 
