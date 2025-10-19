@@ -1,4 +1,4 @@
-from math import sin, cos
+from math import sin, cos, sqrt
 
 class vec2:
     def __init__(self, x, y) -> None:
@@ -18,7 +18,7 @@ class vec2:
     __rmul__ = __mul__
 
     def toScreen(self, width, height):
-        # Ajuste le ratio pour un terminal monospace macOS
+        # Ajuste le ratio pour un terminal monospace
         ratio = 2.0  
         return vec2((ratio * height / width * self.x + 1) * width / 2,
                     (-self.y + 1) * height / 2)
@@ -38,10 +38,34 @@ class vec3:
     def __add__(self, v):
         return vec3(self.x + v.x, self.y + v.y, self.z + v.z)
     
+    def __sub__(self, v):
+        return vec3(self.x - v.x, self.y - v.y, self.z - v.z)
+
     __radd__ = __add__
     __rmul__ = __mul__
 
+    def dot(self, v):
+        return self.x * v.x + self.y * v.y + self.z * v.z
+
+    def cross(self, v):
+        return vec3(
+            self.y * v.z - self.z * v.y,
+            self.z * v.x - self.x * v.z,
+            self.x * v.y - self.y * v.x
+        )
+    
+    def length(self):
+        return sqrt(self.x*self.x + self.y*self.y + self.z*self.z)
+
+    def normalize(self):
+        l = self.length()
+        if l == 0: return vec3(0, 0, 0)
+        return vec3(self.x / l, self.y / l, self.z / l)
+
     def projection(self, focalLength):
+        # Ajout d'une sécurité pour éviter la division par zéro si un point est sur la caméra
+        if self.z == 0:
+            return vec2(self.x * focalLength / 0.001, self.y * focalLength / 0.001)
         return vec2(self.x * focalLength / self.z, self.y * focalLength / self.z)
     
     def rotationX(self, pitch):
