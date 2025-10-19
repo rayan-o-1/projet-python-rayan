@@ -20,8 +20,8 @@
       <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/Environement%203D">Voir le projet →</a>
     </td>
     <td width="50%" valign="top">
-      <img src="https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/giphy.gif" alt="Démo du moteur 3D" />
-    </td>
+  <img src="https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/Environement%203D/giphy.gif" alt="Démo du moteur 3D" />
+</td>
   </tr>
   <tr>
     <td width="50%" valign="top">
