@@ -1,57 +1,70 @@
-# Rayan (Rtj34) — Développeur Python & Passionné de Mathématiques
+<div align="center">
 
-**Développeur Python spécialisé dans la modélisation 3D, la création de jeux et l'algorithmique. Je transforme des concepts mathématiques complexes en applications interactives et visuelles.**
+# Rayan (Rtj34)
+### Développeur Python | Spécialiste en Modélisation 3D & Algorithmique
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rayan-o-1)
+*Je conçois des applications interactives en transformant des concepts mathématiques complexes en code performant et visuel. Bienvenue sur mon espace de création.*
 
----
-
-## 🧠 Compétences Techniques
-
-| Domaine                    | Compétences & Outils                                     |
-| :------------------------- | :------------------------------------------------------- |
-| **Langages de programmation** | `Python`, `HTML/CSS`, `JavaScript` `Kotlin`,`assembly`(notions)             |
-| **Bibliothèques Python** | `Pygame`, `Tkinter`, `NumPy`, `Matplotlib`               |
-| **Mathématiques Appliquées** | Géométrie 3D, Trigonométrie, Algèbre Linéaire, Logique   |
-| **Concepts Informatiques** | Algorithmique, Structures de Données, Programmation Orientée Objet |
-| **Outils de Développement** | `Git`, `GitHub`, `VS Code`, `Linux`,`Thonny`,`Wireshark`                      |
+</div>
 
 ---
 
-## 🚀 Projets Principaux
+### 💡 Projets Clés
 
-###  [Environnement Graphique 3D]([VOTRE-LIEN-ICI])
-*Création d'un moteur de rendu 3D à partir de zéro en utilisant Python et Pygame.*
-
-Ce projet transforme des concepts mathématiques (matrices de rotation, projection perspective) en un environnement 3D interactif. L'objectif était d'approfondir ma compréhension de l'algèbre linéaire et de la géométrie dans un contexte de programmation graphique.
-
-**Tech :** `Python`, `Pygame`, `NumPy`
-
-![Aperçu du moteur 3D](https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/giphy.gif) ---
-
-###  [RPG Interactif et Visuel]([VOTRE-LIEN-ICI])
-*Développement d'un jeu de rôle 2D complet avec une interface graphique, un système de combat au tour par tour et des dialogues.*
-
-Ce projet met l'accent sur l'architecture logicielle (programmation orientée objet) et la gestion d'événements pour créer une expérience de jeu structurée et engageante.
-
-**Tech :** `Python`, `Pygame`
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Environnement Graphique 3D</h3>
+      <p>Moteur de rendu 3D entièrement codé en Python, utilisant Pygame et NumPy pour gérer la projection, la rotation et la rastérisation d'objets. Un projet au croisement des mathématiques et de la programmation graphique.</p>
+      <p><strong>Technologies :</strong> <code>Python</code>, <code>Pygame</code>, <code>NumPy</code></p>
+      <a href="[LIEN-VERS-LE-DÉPÔT-3D]">Voir le projet →</a>
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/giphy.gif" alt="Démo du moteur 3D" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>RPG Interactif et Visuel</h3>
+      <p>Jeu de rôle 2D doté d'une interface graphique complète, d'un système de combat et de dialogues. Le projet met en œuvre des principes d'architecture logicielle (POO) pour une gestion efficace des états du jeu.</p>
+      <p><strong>Technologies :</strong> <code>Python</code>, <code>Pygame</code></p>
+      <a href="[LIEN-VERS-LE-DÉPÔT-RPG]">Voir le projet →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Jeu de Dominos</h3>
+      <p>Application de bureau pour jouer aux dominos, développée avec Tkinter. L'accent a été mis sur la création d'une interface utilisateur intuitive et la gestion propre de la logique du jeu.</p>
+      <p><strong>Technologies :</strong> <code>Python</code>, <code>Tkinter</code></p>
+      <a href="[LIEN-VERS-LE-DÉPÔT-DOMINOS]">Voir le projet →</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-###  [Jeu de Dominos]([VOTRE-LIEN-ICI])
-*Conception d'un jeu de dominos avec une interface graphique claire et intuitive, gérant la logique du jeu et les interactions utilisateur.*
+### 🛠️ Compétences Techniques
 
-L'objectif était de développer une application de bureau propre et fonctionnelle en utilisant la bibliothèque standard Tkinter.
+<div align="center">
 
-**Tech :** `Python`, `Tkinter`
+| Langages | Bibliothèques Python | Mathématiques | Outils & Concepts |
+| :---: | :---: | :---: | :---: |
+| <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> | `Pygame` | Géométrie 3D | <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /> | `NumPy` | Algèbre Linéaire | <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> | `Tkinter` | Trigonométrie | <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> | `Matplotlib` | Logique Formelle | <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> |
+| `JavaScript` (notions) | | | Algorithmique |
+| `Assembly` (notions) | | | Structures de Données |
+
+</div>
 
 ---
 
-## 📈 Objectifs et Perspectives
+### 🎯 Prochaines étapes
 
-Je suis actuellement en train d'approfondir mes connaissances pour :
--   Développer des **moteurs physiques** et des systèmes de rendu plus performants.
--   Explorer les **algorithmes d'intelligence artificielle** pour des applications en jeu vidéo.
--   Contribuer à des **projets open-source** liés à la visualisation de données et à la modélisation.
+- **Apprentissage :** Développement de moteurs physiques, exploration de l'IA pour les jeux.
+- **Contribution :** Je suis à la recherche de projets open-source dans les domaines de la visualisation de données et de la simulation.
 
-N'hésitez pas à me contacter pour toute collaboration ou discussion !
+<div align="center">
+
+*N'hésitez pas à me contacter pour toute collaboration ou opportunité !*
+
+</div>
