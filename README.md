@@ -25,7 +25,7 @@
 
 Ce projet transforme des concepts mathématiques (matrices de rotation, projection perspective) en un environnement 3D interactif. L'objectif était d'approfondir ma compréhension de l'algèbre linéaire et de la géométrie dans un contexte de programmation graphique.
 
-**Technologies :** `Python`, `Pygame`, `NumPy`
+**Tech :** `Python`, `Pygame`, `NumPy`
 
 ![Aperçu du moteur 3D](https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/giphy.gif) ---
 
@@ -34,7 +34,7 @@ Ce projet transforme des concepts mathématiques (matrices de rotation, projecti
 
 Ce projet met l'accent sur l'architecture logicielle (programmation orientée objet) et la gestion d'événements pour créer une expérience de jeu structurée et engageante.
 
-**Technologies :** `Python`, `Pygame`
+**Tech :** `Python`, `Pygame`
 
 ---
 
@@ -43,7 +43,7 @@ Ce projet met l'accent sur l'architecture logicielle (programmation orientée ob
 
 L'objectif était de développer une application de bureau propre et fonctionnelle en utilisant la bibliothèque standard Tkinter.
 
-**Technologies :** `Python`, `Tkinter`
+**Tech :** `Python`, `Tkinter`
 
 ---
 
