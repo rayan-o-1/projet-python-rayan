@@ -40,8 +40,11 @@
 </table>
 
 ---
-
+<div align="center">
+  
 ### 🛠️ Compétences Techniques
+
+</div>
 
 <div align="center">
 
