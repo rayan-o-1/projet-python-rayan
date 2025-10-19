@@ -59,7 +59,7 @@ def il_y_a_un_mur ( x :int , y : int ) -> bool :
 
     Retour :
     -Un bool, True si le joueur est face a un mur, False sinon
-    """
+"""
     
 def il_y_a_un_ennemi ( x :int , y : int ) -> bool :
     
@@ -69,8 +69,7 @@ def il_y_a_un_ennemi ( x :int , y : int ) -> bool :
     else :
         return False
 """
-    Description :
-    -Ce code permet de dire a notre joueur si il y a un ennemi face a lui
+    - notre joueur si il y a un ennemi face a lui
     (un ennemi vaut 1).
 
     Paramètres :
@@ -78,7 +77,7 @@ def il_y_a_un_ennemi ( x :int , y : int ) -> bool :
 
     Retour :
     -Un bool, True si le joueur est face a un ennemi, False sinon
-    """
+"""
     
 def il_y_a_un_tresor ( x :int , y : int ) -> bool :
    
@@ -88,8 +87,7 @@ def il_y_a_un_tresor ( x :int , y : int ) -> bool :
     else :
         return False
 """
-    Description :
-    -Ce code permet de dire a notre joueur si il y a un trésor face a lui
+    - dire a notre joueur si il y a un trésor face a lui
     (un tresor vaut 1).
 
     Paramètres :
@@ -97,7 +95,7 @@ def il_y_a_un_tresor ( x :int , y : int ) -> bool :
 
     Retour :
     -Un bool, True si le joueur est face a un trésor, False sinon
-    """
+"""
     
 position_joueur = [5, 5]
 position_precedente_joueur = [5, 5]
@@ -105,7 +103,6 @@ position_precedente_joueur = [5, 5]
 def obtenir_position_joueur () -> List [ int ] :
     return position_joueur
 """
-    Description :
     -Cette fonction permet de connaitre la position du joueur.
     
     Parametre :
@@ -113,7 +110,7 @@ def obtenir_position_joueur () -> List [ int ] :
     
     Retour :
     -Une liste d'entier
-    """
+"""
 
 def deplacer_joueur ( x : int , y : int ) -> None :
     global position_joueur
@@ -135,8 +132,8 @@ def deplacer_joueur ( x : int , y : int ) -> None :
     x et y, deux entiers
     
     Retour :
-    -Aucun
-    """
+    -None
+"""
 #fonction trésore#
 tresors_collectes = 0
 
@@ -165,13 +162,13 @@ def arriver_case () -> None :
         else:
             reculer()
 """
-    Description :
+
     -Ce code permet de savoir il y a quoi sur la case du joueur
     Parametre:
     -aucun
     Retour:
     -Rien
-    """
+"""
 arriver_case()
 
     
@@ -192,13 +189,12 @@ sortie = [0, 4]
 def sortir() -> None :
     print("Le jeu est términé, bien joué soldat !")
 """
-    Description :
     -Cette fonction permet de terminer le jeu
     Parametre :
     -aucun
     Retour :
     -Rien
-    """
+"""
     
         
 
@@ -212,13 +208,8 @@ def detruire_mur ( x : int , y : int ) -> None :
     global murs
     murs[x][y] = 0
 """
-    Description :
-    -Cette fonction permet de reculer
-    Parametre :
-    -Aucun
-    Retour :
-    -Rien
-    """
+ fonction permetant de reculer
+"""
 
 #répetition de cette fonction a cause de bug       
 tresors_collectes = 0
@@ -236,20 +227,15 @@ tresors_collectes += 1
 #------------
 
 """
-    Description :
-    -Cette fonction permet de dire que le joueur a un trésor en plus
+    le joueur a un trésor en plus
     Parametre :
     -x et y, deux entier
-    Retour :
-    -Rien
     """
 """
-    Description :
-    -Cette fonction permet de ramasser un trésor
+    ramasser un trésor
     Parametre :
     -x et y, deux entier
-    Retour :
-    -Rien
+   
     """
 #------------
         
@@ -273,25 +259,21 @@ def affronter_ennemi(x: int, y: int) -> bool:
         print("Aucun ennemi sur cette case.")
         return False
 """
-    Description :
     -Cette fonction permet de savoir combien d'ennemis le joueur a vaincu
     Parametre :
     -x et y, deux entier
     Retour :
     -Un bool
-    """
+"""
 #--------------
 
 def obtenir_position_joueur() -> List[int]:
     return position_joueur
 """
-    Description :
     -Cette fonction permet d'obtenir la position du joueur
-    Parametre :
-    -aucun
     Retour :
     -Une liste d'entier
-    """
+"""
 
 def deplacer_joueur(x, y):
     global position_joueur, position_precedente_joueur
@@ -299,18 +281,17 @@ def deplacer_joueur(x, y):
     position_joueur = [x, y]
     arriver_case()
 """
-    Description :
-    -Cette fonction permet de déplacer le joueur
+    déplacer le joueur
     Parametre :
     -x et y, deux entier
     Retour :
     -Rien
-    """
+"""
 
 def reculer() -> None:
     global position_joueur, position_precedente_joueur
     position_joueur = position_precedente_joueur
-    print("tu doit reculer, sale nulos ")
+    print("tu doit reculer")
 """
     Description :
     -Cette fonction permet de reculer d'une case
@@ -318,23 +299,23 @@ def reculer() -> None:
     -aucun
     Retour :
     -Rien
-    """
+"""
 
 def detruire_mur(x: int, y: int) -> None:
     global murs
     if murs[y][x] == 1:
         murs[y][x] = 0
-        print("Vous avez détruit le mur à la position (" + str(x) + ", " + str(y) + "), tu fonce encore dans les mur en 2024 !?!")
+        print("Vous avez détruit le mur à la position (" + str(x) + ", " + str(y) + "), !?!")
     else:
         print("y a un mur devant, mais par la puissance de python tu passe pas(a en faite si tu MAIS LE FAIT PAS)")
+       
 """
-    Description :
-    -Cette fonction permet de detruire un mur
+    permet de detruire un mur
     Parametre :
     -x et y, deux entier
     Retour :
     -Rien
-    """
+"""
 def affronter_ennemi(x: int, y: int) -> bool:
     # Utilisation de random.randint pour déterminer le résultat
     resultat = random.randint(0, 1)
@@ -343,11 +324,11 @@ def affronter_ennemi(x: int, y: int) -> bool:
         # L'ennemi est vaincu
         global ennemis_vaincus
         ennemis_vaincus += 1
-        print("wow gg pr le kill !!!!!")
+        print("wow bravo pour le kill !!!!!")
         return True
     else:
         # L'ennemi n'est pas vaincu
-        print("! T'es trop nul, 0 level !!!")
+        print("! T'es trop nul !!!")
         return False
 """
     Description :
@@ -356,7 +337,7 @@ def affronter_ennemi(x: int, y: int) -> bool:
     -x et y, deux entier
     Retour :
     -Un bool, pour connaitre l'issu du combat
-    """
+"""
 # Variable globale pour activer le code de triche
 #----------------------------------
 code_triche_active = False
@@ -374,7 +355,7 @@ def affronter_ennemi(x: int, y: int) -> bool:
         print('\33[44m' + "Vous avez vaincu l'ennemi !" + '\33[0m')
         return True
     else:
-        print("L'ennemi vous a vaincu.")
+        print("L'ennemi vous a vaincu.  ;(")
         return False
 
 # Fonction pour activer le code de triche
@@ -421,12 +402,8 @@ def arriver_case():
 """
     Description :
     -Cette fonction permet de savoir ce qu'il y a sur sa case
-    Parametre :
-    -aucun
-    Retour :
-    -Rien
     AKA la partie la plus relou avec les deplacement 
-    """
+"""
 
 def sortir() -> None:
     global sortie
@@ -441,16 +418,12 @@ def sortir() -> None:
     -aucun
     Retour :
     -Rien
-    """
+"""
 def sortir() -> None:
     print("Le jeu est terminé. T'as atteint la sortie! En vrai t'as de la chance ! T'as battu", ennemis_vaincus, "ennemis et collecté ", {tresors_collectes}, "trésors.(Mouais!)")
 """
     Description :
     -Cette fonction permet de terminer le jeu
-    Parametre :
-    -aucun
-    Retour :
-    -Rien
 """
 
 rep = ""
@@ -524,14 +497,7 @@ def deplacement() -> None:
 """
     Description :
     -Cette fonction permet de faire un déplacement
-    Parametre :
-    -aucun
-    Retour :
-    -Rien
-    
-    J EN PEUT PLUS ALED
-    
-    """            
+"""            
 #--------------Dialogues-------------
 condition_case_teste = True
 condition_case_ennemi = False
