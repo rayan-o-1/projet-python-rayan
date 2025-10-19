@@ -46,7 +46,7 @@ def putTriangle(tri, char):
 
 def putMesh(mesh, cam):
     shading_chars = '.,-~:;=!*#$@'
-    light_direction = vec3(0, 0, -1).normalize() # Lumière simple venant de face
+    light_direction = vec3(0, 0, -1).normalize() # Lumière face - avant 
 
     for triangle in mesh:
         
@@ -61,7 +61,7 @@ def putMesh(mesh, cam):
 
         
         dot_product = normal.dot(light_direction)
-        intensity = max(0, -dot_product) # On inverse le produit scalaire
+        intensity = max(0, -dot_product) # On inverse le produit scalaire (teste fo,ction)
         
         char_index = int(intensity * (len(shading_chars) - 1))
         char = shading_chars[char_index]
