@@ -62,7 +62,7 @@
 
 - **Apprentissage :** Développement de moteurs physiques, exploration de l'IA pour les jeux.
 - **Contribution :** Je suis à la recherche de projets open-source dans les domaines de la visualisation de données et de la simulation.
-- **hardware :** Je doit être capable de mannipuler l'hardware de maniére plus précise.
+- **PCB Assembly :** Je doit être capable de mannipuler l'hardware de maniére plus précise.
 
 <div align="center">
 
