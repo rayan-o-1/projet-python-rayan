@@ -1,9 +1,9 @@
 <div align="center">
 
 # Rayan (Rtj34)
-### Développeur Python | Spécialiste en Modélisation 3D & Algorithmique
+### Développeur Python | Spécialiste en Modélisation 3D, IA & Algorithmique
 
-*Je conçois des applications interactives en transformant des concepts mathématiques complexes en code performant et visuel. Bienvenue sur mon espace de création.*
+*Je conçois des applications interactives et des systèmes autonomes en transformant des concepts complexes en code performant. Bienvenue sur mon espace de création.*
 
 </div>
 
@@ -20,8 +20,8 @@
       <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/Environement%203D">Voir le projet →</a>
     </td>
     <td width="50%" valign="top">
-  <img src="https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/Environement%203D/giphy.gif" alt="Démo du moteur 3D" />
-</td>
+      <img src="https://raw.githubusercontent.com/rayan-o-1/projet-python-rayan/main/Environement%203D/giphy.gif" alt="Démo du moteur 3D" />
+    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
@@ -31,10 +31,10 @@
       <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/RPG">Voir le projet →</a>
     </td>
     <td width="50%" valign="top">
-      <h3>Jeu de Dominos</h3>
-      <p>Application de bureau pour jouer aux dominos, développée avec Tkinter. L'accent a été mis sur la création d'une interface utilisateur intuitive et la gestion propre de la logique du jeu.</p>
-      <p><strong>Technologies :</strong> <code>Python</code>, <code>Tkinter</code></p>
-      <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/Jeux%20de%20domino">Voir le projet →</a>
+      <h3>🛡️ AEGIS (Autonomous Repair System)</h3>
+      <p>Agent intelligent capable de détecter, analyser et corriger des bugs de code en toute autonomie. Il cartographie les dépendances, génère des correctifs via IA (LLM), et valide la sécurité du code dans une <strong>Sandbox Docker</strong> isolée.</p>
+      <p><strong>Technologies :</strong> <code>Python</code>, <code>Docker</code>, <code>Ollama</code>, <code>NetworkX</code></p>
+      <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/AEGIS">Voir le projet →</a>
     </td>
   </tr>
 </table>
@@ -47,11 +47,11 @@
 
 | Langages | Bibliothèques Python | Mathématiques | Outils & Concepts |
 | :---: | :---: | :---: | :---: |
-| <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> | `Pygame` | Géométrie 3D | <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /> | `NumPy` | Algèbre Linéaire | <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> |
-| <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> | `Tkinter` | Trigonométrie | <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" /> <img src="https://img.shields.io/badge/DBeaver-386483?style=for-the-badge&logo=dbeaver&logoColor=white" /> |
-| <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> | `Matplotlib` | Logique Formelle | `Nmap` `IDA Pro` `VeraCrypt`|
-| `JavaScript` (notions) | | | `Pinokio` (IA) |
+| <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> | `Pygame` `NumPy` | Géométrie 3D | <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" /> | `Tkinter` `Matplotlib` | Algèbre Linéaire | <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" /> |
+| <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> | `NetworkX` (Graphes) | Trigonométrie | <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white" /> |
+| <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> | `Ollama` (API LLM) | Logique Formelle | `Nmap` `IDA Pro` `VeraCrypt`|
+| `JavaScript` (notions) | | | `DeepSeek` & Prompt Engineering |
 | `Assembly` (notions) | | | Algorithmique & Structures de Données |
 
 </div>
@@ -62,7 +62,7 @@
 
 - **Apprentissage :** Développement de moteurs physiques, exploration de l'IA pour les jeux.
 - **Contribution :** Je suis à la recherche de projets open-source dans les domaines de la visualisation de données et de la simulation.
-- **PCB Assembly :** Je doit être capable de mannipuler l'hardware de maniére plus précise.
+- **Hardware :** Je dois être capable de manipuler l'hardware et l'assemblage PCB de manière plus précise.
 
 <div align="center">
 
