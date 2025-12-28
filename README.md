@@ -31,7 +31,7 @@
       <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/RPG">Voir le projet →</a>
     </td>
     <td width="50%" valign="top">
-      <h3>AEGIS (Autonomous Repair System)</h3>
+      <h3>AEGIS (Autonom Repair System)</h3>
       <p>Agent intelligent capable de détecter, analyser et corriger des bugs de code en toute autonomie. Il cartographie les dépendances, génère des correctifs via IA (SLM), et valide la sécurité du code dans une <strong>Sandbox Docker</strong> isolée.</p>
       <p><strong>Technologies :</strong> <code>Python</code>, <code>Docker</code>, <code>Ollama</code>, <code>NetworkX</code></p>
       <a href="https://github.com/rayan-o-1/projet-python-rayan/tree/main/AEGIS">Voir le projet →</a>
