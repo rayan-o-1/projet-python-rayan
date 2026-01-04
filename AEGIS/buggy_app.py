@@ -1,4 +1,1 @@
-def ajouter_exclamation(texte):
-    texte = list(texte)
-    texte.append("!")
-    return "'".join(texte)
+#placez le code a corrigez ici 
