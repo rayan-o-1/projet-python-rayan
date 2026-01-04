@@ -3,7 +3,7 @@ import ast
 class HealthScorer:
     def calculate_score(self, patch, test_results, risk_level):
         score = 100
-        nb_nodes = 0 # <-- CORRECTIF : On initialise la variable ici par sécurité
+        nb_nodes = 0 
         
         # 1. Sanction si les tests échouent dans Docker
         if test_results.get("exit_code") != 0:
@@ -22,7 +22,7 @@ class HealthScorer:
             score -= 50 
             nb_nodes = 0
 
-        # 3. Malus de risque (venant du Cartographe)
+        # 3. Malus de risque 
         if risk_level > 5:
             score -= 10
 
