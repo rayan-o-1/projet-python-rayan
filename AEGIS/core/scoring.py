@@ -5,7 +5,7 @@ class HealthScorer:
         score = 100
         nb_nodes = 0 
         
-        # 1. Sanction si les tests échouent dans Docker
+        # 1. Sanction si les tests ne passe pas sur docker
         if test_results.get("exit_code") != 0:
             score -= 60  # Échec critique
             
@@ -15,7 +15,7 @@ class HealthScorer:
             tree = ast.parse(patch)
             nb_nodes = len(list(ast.walk(tree)))
             
-            if nb_nodes > 100: # Si le patch est trop complexe
+            if nb_nodes > 100: 
                 score -= 15
         except:
             # Si le code de l'IA n'est même pas du Python valide
