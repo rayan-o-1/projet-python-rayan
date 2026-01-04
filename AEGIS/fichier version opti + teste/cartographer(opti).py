@@ -35,12 +35,10 @@ class AegisCartographer:
             try:
                 tree = ast.parse(f.read())
                 for node in ast.walk(tree):
-                    # Cas 'import mon_module'
                     if isinstance(node, ast.Import):
                         for alias in node.names:
                             if alias.name in self.project_files:
                                 self.graph.add_edge(current_mod, alias.name)
-                    # Cas 'from mon_module import ma_fonction'
                     elif isinstance(node, ast.ImportFrom):
                         if node.module in self.project_files:
                             self.graph.add_edge(current_mod, node.module)
@@ -52,11 +50,5 @@ class AegisCartographer:
         Calcule le poids (risque) de chaque fichier.
         Plus un fichier est importé par d'autres, plus son score est élevé.
         """
-        # In-degree = nombre de fichiers qui dépendent de ce module
         scores = {node: self.graph.in_degree(node) for node in self.graph.nodes()}
         return dict(sorted(scores.items(), key=lambda item: item[1], reverse=True))
-
-# --- Utilisation ---
-# carto = AegisCartographer("./ton_projet")
-# carto.scan_dependencies()
-# print(carto.get_risk_scores())
