@@ -1,6 +1,6 @@
 <div align="center">
 
-# Rayan (Rtj34)
+# Rayan
 ### Développeur Python | Programmation Graphique, IA & Algorithmique
 
 *Je conçois des applications interactives et des systèmes autonomes en transformant des concepts complexes en code performant. Bienvenue sur mon espace de création.*
