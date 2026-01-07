@@ -1,3 +1,6 @@
+#Projet AEGIS
+#author :Rayan O
+
 import subprocess
 import sys
 from core.agent import AegisAgent
