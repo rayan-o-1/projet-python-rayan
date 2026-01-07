@@ -1,3 +1,7 @@
+#Projet Ev - 3D
+#author :Rayan O
+
+
 import time
 import math
 import affichage_graphique as mg
